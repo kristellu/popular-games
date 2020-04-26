@@ -1,0 +1,32 @@
+.square{
+    width: 200px;
+    height: 200px;
+    border-style: solid;
+    border-color: black;
+}
+
+.grid{
+    display: grid;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: center;
+    align-content: center;
+    /* display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    width: 618px;
+    height: 618px; */
+}
+
+.mole{
+    background-image: url('mole.png');
+    background-size: cover();
+}
+
+.title{
+    margin-top: 60px;
+    text-align: center;
+    justify-content: center;
+}
+
